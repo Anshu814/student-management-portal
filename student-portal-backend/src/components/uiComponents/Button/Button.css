@@ -1,0 +1,44 @@
+/* General button styles */
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Button with border */
+.btn-with-border {
+  border: 2px solid yellow;
+  background-color: yellow;
+  color: black;
+}
+
+/* Button without border */
+.btn-borderless {
+  background-color: transparent;
+  color: black;
+  border: none;
+  text-decoration-line: underline;
+}
+
+.btn-borderless:hover {
+  border: 2px solid yellow;
+  background-color: white;
+}
+
+/* Disabled button state */
+.btn-disabled {
+  background-color: #d3d3d3;
+  color: black;
+  border: 2px solid #d3d3d3;
+  cursor: not-allowed;
+}
+
+.btn-disabled:hover {
+  background-color: #d3d3d3;
+  color: #a9a9a9;
+  border: 2px solid #d3d3d3;
+}

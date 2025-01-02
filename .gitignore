@@ -1,0 +1,10 @@
+# Node.js dependencies
+/ui/node_modules
+
+# Build files
+/ui/build
+/backend/target
+
+# Logs
+*.log
+.idea/

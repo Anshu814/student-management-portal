@@ -1,0 +1,35 @@
+.input-group {
+  margin-bottom: 15px;
+}
+
+  
+  .input-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 580px
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: black;
+    box-shadow: 0 0 5px rgba(183, 195, 75, 0.5);
+  }
+
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+  }
+  
+  

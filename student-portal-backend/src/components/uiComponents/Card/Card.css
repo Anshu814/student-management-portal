@@ -1,0 +1,30 @@
+/* Card.css */
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .card-heading {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .card-description {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
