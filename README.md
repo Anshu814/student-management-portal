@@ -16,16 +16,17 @@ This repository contains a **Student Management Portal** with both **Backend** (
    ```bash
    cd student-portal-backend
 
-2. Build the project using Maven:
+2. Build project using maven:
 
-  ```bash
-    mvn clean install
+   ```bash
+   mvn clean install
 
 3. Start the Spring Boot application:
-  ```bash
 
-  mvn spring-boot:run
-  The backend will be accessible at http://localhost:8080.
+   ```bash
+   mvn spring-boot:run
+
+The backend will be accessible at http://localhost:8080.
 
 ### UI (React.js)
   Navigate to the student-portal-ui/ directory:
@@ -34,7 +35,7 @@ This repository contains a **Student Management Portal** with both **Backend** (
   
   The frontend will be accessible at http://localhost:3000.
 
-**API Endpoints**
+## API Endpoints
     The backend exposes the following API endpoints:
     
     GET /students: Retrieve a list of all students.
@@ -42,12 +43,12 @@ This repository contains a **Student Management Portal** with both **Backend** (
     PUT /students/{id}: Update an existing student.
     DELETE /students/{id}: Delete a student.
 
-**Features**
+## Features
   Add, update, delete, and view student records.
   REST API built using Spring Boot.
   Frontend built using React.js.
 
-**Technologies Used**
+## Technologies Used
   1) Backend:
   Spring Boot for backend logic and API development.
   H2 Database for storing student information.
@@ -58,5 +59,5 @@ This repository contains a **Student Management Portal** with both **Backend** (
   Axios for making API calls to the backend.
   CSS for styling the components.
 
-   ```markdown
+### UI
    ![Ui](../student-portal-ui/public/uiImage.png)
