@@ -60,4 +60,6 @@ The backend will be accessible at http://localhost:8080.
   CSS for styling the components.
 
 ### UI
-   ![Ui](../student-portal-ui/public/uiImage.png)
+
+   ![uiImage](https://github.com/user-attachments/assets/67b83fef-be4a-468e-842f-3834e1661330)
+
